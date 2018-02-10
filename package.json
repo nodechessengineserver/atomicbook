@@ -1,0 +1,29 @@
+{
+  "name": "atomicbook",
+  "version": "1.0.0",
+  "description": "Chess engine built book for variant Atomic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodechessengineserver/atomicbook.git"
+  },
+  "author": "Atomicbook Builder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodechessengineserver/atomicbook/issues"
+  },
+  "homepage": "https://github.com/nodechessengineserver/atomicbook#readme",
+  "keywords": [
+    "chess",
+    "engine",
+    "book",
+    "atomic"
+  ],
+  "dependencies": {
+    "mongodb": "^3.0.2",
+    "xml2js": "^0.4.19"
+  }
+}

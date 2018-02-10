@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = https://github.com/nodechessengineserver/atomicbook
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	name = nodechessengineserver
+	email = nodechessengineserver@gmail.com
+	[credential "https://github.com/nodechessengineserver/atomicbook"]
+		username = nodechessengineserver
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
